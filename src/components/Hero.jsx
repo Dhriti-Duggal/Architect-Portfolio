@@ -72,7 +72,7 @@ export default function Hero() {
 
       {/* CTAs */}
       <motion.div
-        className="flex gap-5 justify-center flex-wrap"
+        className="flex gap- justify-center flex-wrap"
         {...fadeUp(1.2)}
       >
         <motion.a
@@ -90,6 +90,23 @@ export default function Hero() {
           View Portfolio
         </motion.a>
         <motion.a
+  href="https://drive.google.com/file/d/1RNrfq841BMHhsLdkE10RgxqIZ0YbSdiY/view?usp=share_link"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Thesis Document"
+  className="inline-flex items-center gap-2 px-9 py-3.5 bg-transparent text-accent
+             text-[0.72rem] font-sans font-normal tracking-[0.18em] uppercase
+             border border-[rgba(60,55,48,0.20)] no-underline cursor-pointer"
+  whileHover={{ scale: 1.03, y: -2, borderColor: 'rgba(184,154,106,0.6)' }}
+  transition={{ duration: 0.25 }}
+  whileTap={{ scale: 0.98 }}
+>
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12h8v1.5H8V12zm0 3h8v1.5H8V15zm0 3h5v1.5H8V18z"/>
+  </svg>
+  Thesis
+</motion.a>
+        <motion.a
           href="https://www.linkedin.com/in/jitika-duggal-a4105b199/"
           target="_blank"
           rel="noopener noreferrer"
@@ -105,6 +122,7 @@ export default function Hero() {
           LinkedIn
         </motion.a>
       </motion.div>
+
 
       {/* Scroll hint */}
       <motion.div
