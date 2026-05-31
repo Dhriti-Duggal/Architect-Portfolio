@@ -90,22 +90,22 @@ export default function Hero() {
           View Portfolio
         </motion.a>
         <motion.a
-  href="https://drive.google.com/file/d/1RNrfq841BMHhsLdkE10RgxqIZ0YbSdiY/view?usp=share_link"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Thesis Document"
-  className="inline-flex items-center gap-2 px-9 py-3.5 bg-transparent text-accent
-             text-[0.72rem] font-sans font-normal tracking-[0.18em] uppercase
-             border border-[rgba(60,55,48,0.20)] no-underline cursor-pointer"
-  whileHover={{ scale: 1.03, y: -2, borderColor: 'rgba(184,154,106,0.6)' }}
-  transition={{ duration: 0.25 }}
-  whileTap={{ scale: 0.98 }}
->
-  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-    <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12h8v1.5H8V12zm0 3h8v1.5H8V15zm0 3h5v1.5H8V18z"/>
-  </svg>
-  Thesis
-</motion.a>
+          href="https://drive.google.com/file/d/1RNrfq841BMHhsLdkE10RgxqIZ0YbSdiY/view?usp=share_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Thesis Document"
+          className="inline-flex items-center gap-2 px-9 py-3.5 bg-transparent text-accent
+                     text-[0.72rem] font-sans font-normal tracking-[0.18em] uppercase
+                     border border-[rgba(60,55,48,0.20)] no-underline cursor-pointer"
+          whileHover={{ scale: 1.03, y: -2, borderColor: 'rgba(184,154,106,0.6)' }}
+          transition={{ duration: 0.25 }}
+          whileTap={{ scale: 0.98 }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12h8v1.5H8V12zm0 3h8v1.5H8V15zm0 3h5v1.5H8V18z"/>
+          </svg>
+          Thesis
+        </motion.a>
         <motion.a
           href="https://www.linkedin.com/in/jitika-duggal-a4105b199/"
           target="_blank"
@@ -120,6 +120,25 @@ export default function Hero() {
         >
           <LinkedInIcon />
           LinkedIn
+        </motion.a>
+        <motion.a
+          href="/Users/jitikaduggal/Downloads/BIM PORTFOLIO _ JITIKA.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="BIM Portfolio"
+          className="inline-flex items-center gap-2 px-9 py-3.5 bg-transparent text-accent
+                     text-[0.72rem] font-sans font-normal tracking-[0.18em] uppercase
+                     border border-[rgba(60,55,48,0.20)] no-underline cursor-pointer"
+          whileHover={{ scale: 1.03, y: -2, borderColor: 'rgba(184,154,106,0.6)' }}
+          transition={{ duration: 0.25 }}
+          whileTap={{ scale: 0.98 }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+            <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+            <line x1="12" y1="22.08" x2="12" y2="12" />
+          </svg>
+          BIM Portfolio
         </motion.a>
       </motion.div>
 
