@@ -122,7 +122,7 @@ export default function Hero() {
           LinkedIn
         </motion.a>
         <motion.a
-          href="/Users/jitikaduggal/Downloads/BIM POhttps://drive.google.com/file/d/14IKk_UFX4L-0_BRa6XE6dIgphlJyVXRd/view?usp=share_linkRTFOLIO _ JITIKA.pdf"
+          href="https://drive.google.com/file/d/14IKk_UFX4L-0_BRa6XE6dIgphlJyVXRd/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="BIM Portfolio"
